@@ -1,0 +1,7 @@
+Section: extra
+Priority: optional
+Maintainer: Sandro Cavazzoni (http://www.sifteam.eu)
+Depends:
+Description: Read LCN table from terrestrial services and reorder the bouquet
+Source: none
+Version: 2.0
