@@ -1,0 +1,46 @@
+<rules>
+	<ruleset name="default">
+		<!-- no "renumber" rules... keep the exact order from original lcn -->
+		<rule type="marker" position="16635">Duplicates</rule>
+	</ruleset>
+	<ruleset name="Italia">
+		<!-- "renumber" rules are applied sequentially keeping the original order -->
+		<rule type="renumber" range="0-99999">value * 10</rule>
+		<rule type="renumber" range="1010-1990">value - 995</rule>
+		<rule type="renumber" range="2010-2990">value - 1995</rule>
+		<rule type="renumber" range="5010-5990">value - 5005</rule>
+		<rule type="marker" position="0">Intrattenimento</rule>
+		<rule type="marker" position="395">Bambini e ragazzi</rule>
+		<rule type="marker" position="475">Informazione e cultura</rule>
+		<rule type="marker" position="565">Sport</rule>
+		<rule type="marker" position="655">Musica</rule>
+		<rule type="marker" position="2995">Pay TV</rule>
+		<rule type="marker" position="7995">Servizi On Demand</rule>
+		<rule type="marker" position="166350">Duplicati</rule>
+	</ruleset>
+	<ruleset name="Italy by Morpheus883">
+		<!-- no "renumber" rules... keep the exact order from original lcn -->
+		<rule type="marker" position="0">[1] Nazionali</rule>
+		<rule type="marker" position="9">[10] Locali</rule>
+		<rule type="marker" position="19">[20] Movie e Semigeneralista</rule>
+		<rule type="marker" position="39">[40] Ragazzi</rule>
+		<rule type="marker" position="47">[48] News</rule>
+		<rule type="marker" position="51">[52] Cultura</rule>
+		<rule type="marker" position="56">[57] Sport</rule>
+		<rule type="marker" position="65">[66] Musica</rule>
+		<rule type="marker" position="71">[72] Locali</rule>
+		<rule type="marker" position="119">[120] Nazionali</rule>
+		<rule type="marker" position="160">[161] Musica</rule>
+		<rule type="marker" position="164">[165] Nazionali - Locali</rule>
+		<rule type="marker" position="180">[181] Locali</rule>
+		<rule type="marker" position="220">[221] Nazionali</rule>
+		<rule type="marker" position="270">[271] Locali</rule>
+		<rule type="marker" position="400">[401] Adulti</rule>
+		<rule type="marker" position="454">[455] SKY</rule>
+		<rule type="marker" position="500">[501] HD Nazionali</rule>
+		<rule type="marker" position="572">[573] HD Locali</rule>
+		<rule type="marker" position="600">[601] Locali</rule>
+		<rule type="marker" position="804">[805] On Demand e Servizi</rule>
+		<rule type="marker" position="1000">Altri</rule>
+	</ruleset>
+</rules>
