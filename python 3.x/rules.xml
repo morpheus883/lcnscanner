@@ -1,7 +1,7 @@
 <rules>
 	<ruleset name="default">
 		<!-- no "renumber" rules... keep the exact order from original lcn -->
-		<rule type="marker" position="16635">Duplicates</rule>
+		<rule type="marker" position="16535">Duplicates</rule>
 	</ruleset>
 	<ruleset name="Italia">
 		<!-- "renumber" rules are applied sequentially keeping the original order -->
@@ -16,10 +16,10 @@
 		<rule type="marker" position="655">Musica</rule>
 		<rule type="marker" position="2995">Pay TV</rule>
 		<rule type="marker" position="7995">Servizi On Demand</rule>
-		<rule type="marker" position="166350">Duplicati</rule>
+		<rule type="marker" position="16535">Duplicati</rule>
 	</ruleset>
 	<ruleset name="Italy by Morpheus883">
-		<!-- no "renumber" rules... keep the exact order from original lcn -->
+		<!-- no "renumber" rules... keeping the exact order from original LCN -->
 		<rule type="marker" position="0">[1] Nazionali</rule>
 		<rule type="marker" position="9">[10] Locali</rule>
 		<rule type="marker" position="19">[20] Movie e Semigeneralista</rule>
@@ -41,6 +41,6 @@
 		<rule type="marker" position="572">[573] HD Locali</rule>
 		<rule type="marker" position="600">[601] Locali</rule>
 		<rule type="marker" position="804">[805] On Demand e Servizi</rule>
-		<rule type="marker" position="1000">Altri</rule>
+		<rule type="marker" position="1000">[1000] Altri - Duplicati</rule>
 	</ruleset>
 </rules>

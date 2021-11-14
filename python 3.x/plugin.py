@@ -156,7 +156,7 @@ class LCN():
 
 		for x in self.lcnlist:
 			count += 1
-			while x[0] != count:
+			while (x[0] != count) and (x[0] < 1000): # limits the empty markers avoiding crashes
 				self.newlist.append([count, 11111111, 11111, 111, 111, 111111])
 				count += 1
 			if x[0] == count:
@@ -182,7 +182,7 @@ class LCN():
 			if len(self.markers) > 0:
 				if x[0] > self.markers[0][0]:
 					f.write("#SERVICE 1:64:0:0:0:0:0:0:0:0:\n")
-					f.write("#DESCRIPTION ------- " + self.markers[0][1] + " -------\n")
+					f.write("#DESCRIPTION " + self.markers[0][1] + " -------\n")
 					self.markers.remove(self.markers[0])
 			refstr = "1:0:1:%x:%x:%x:%x:0:0:0:" % (x[4], x[3], x[2], x[1]) # temporary ref
 			refsplit = eServiceReference(refstr).toString().split(":")
@@ -233,7 +233,7 @@ class LCN():
 
 		for x in self.lcnlist:
 			count += 1
-			while x[0] != count:
+			while (x[0] != count) and (x[0] < 1000): # limits the empty markers avoiding crashes
 				self.newlist.append([count, 11111111, 11111, 111, 111, 111111])
 				count += 1
 			if x[0] == count:
@@ -259,7 +259,7 @@ class LCN():
 			if len(self.markers) > 0:
 				if x[0] > self.markers[0][0]:
 					f.write("#SERVICE 1:64:0:0:0:0:0:0:0:0:\n")
-					f.write("#DESCRIPTION ------- " + self.markers[0][1] + " -------\n")
+					f.write("#DESCRIPTION " + self.markers[0][1] + " -------\n")
 					self.markers.remove(self.markers[0])
 			refstr = "1:0:2:%x:%x:%x:%x:0:0:0:" % (x[4], x[3], x[2], x[1]) # temporary ref
 			refsplit = eServiceReference(refstr).toString().split(":")
