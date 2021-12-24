@@ -18,7 +18,7 @@
 		<rule type="marker" position="7995">Servizi On Demand</rule>
 		<rule type="marker" position="16535">Duplicati</rule>
 	</ruleset>
-	<ruleset name="Italy by Morpheus883">
+	<ruleset name="Italia by Morpheus883">
 		<!-- no "renumber" rules... keeping the exact order from original LCN -->
 		<rule type="marker" position="0">[1] Nazionali</rule>
 		<rule type="marker" position="9">[10] Locali</rule>
@@ -35,9 +35,11 @@
 		<rule type="marker" position="180">[181] Locali</rule>
 		<rule type="marker" position="220">[221] Nazionali</rule>
 		<rule type="marker" position="270">[271] Locali</rule>
-		<rule type="marker" position="400">[401] Adulti</rule>
-		<rule type="marker" position="454">[455] SKY</rule>
+		<rule type="marker" position="408">[409] Sport</rule>
+		<rule type="marker" position="454">[455] Sky</rule>
 		<rule type="marker" position="500">[501] HD Nazionali</rule>
+		<rule type="marker" position="509">[510] HD Locali</rule>
+		<rule type="marker" position="519">[520] HD Nazionali</rule>
 		<rule type="marker" position="572">[573] HD Locali</rule>
 		<rule type="marker" position="600">[601] Locali</rule>
 		<rule type="marker" position="804">[805] On Demand e Servizi</rule>
